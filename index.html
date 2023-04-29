@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="calculadora" class="calculadora">
+
+        <div id="nome" class="nome">
+            <div>
+                <img src="iconejs.png" alt="Icone Javascript">
+                <p>Calculadora JS</p>
+            </div>
+            <button class="tecla">X</button>
+
+        </div>
+
+        <div id="diplay" class="dispay">
+            <p id="tela">0</p>
+
+        </div>
+
+        <div id="teclas" class="teclas">
+            <div id="tnumeros" class="tnumeros">
+                <button id="t7" class="tecla" data-select="numero">7</button>
+                <button id="t8" class="tecla" data-select="numero">8</button>
+                <button id="t9" class="tecla" data-select="numero">9</button>
+                <button id="t4" class="tecla" data-select="numero">4</button>
+                <button id="t5" class="tecla" data-select="numero">5</button>
+                <button id="t6" class="tecla" data-select="numero">6</button>
+                <button id="t1" class="tecla" data-select="numero">1</button>
+                <button id="t2" class="tecla" data-select="numero">2</button>
+                <button id="t3" class="tecla" data-select="numero">3</button>
+                <button id="t0" class="tecla" data-select="numero">0</button>
+            </div>
+
+            <div id="toperadores" class="toperadores">
+                <button id="raiz"           class="tecla" data-select="op">√</button>
+                <button id="porcentagem"    class="tecla" data-select="op">%</button> 
+                <button id="adicao"         class="tecla" data-select="op">+</button>
+                <button id="subtracao"      class="tecla" data-select="op">-</button>
+                <button id="multiplicacao"  class="tecla" data-select="op">x</button>
+                <button id="divisao"        class="tecla" data-select="op">/</button>
+                <button id="separador"      class="tecla" data-select="separador">.</button>
+                <button id="igual"          class="tecla" data-select="res">=</button>
+            </div>
+
+            <div id="especiais" class="especiais">
+                <button id="t("     class="tecla" data-select="numero">(</button>
+                <button id="t)"     class="tecla" data-select="numero">)</button>
+                <button id="tcop"   class="tecla" data-select="copiar"><img src="iconecopiar.png"></button>
+                <button id="tzerar"  class="tecla" data-select="apagar"><img src="iconeapagar.png"></button>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

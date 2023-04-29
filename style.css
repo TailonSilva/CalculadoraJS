@@ -1,0 +1,136 @@
+:root {
+    --font: Verdana, Geneva, Tahoma, sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora {
+    background-color: #d6d6d6;
+    width: 300px;
+    padding: 10px;
+}
+
+/* <-!-- LAYOUT CABEÇALHO --!-> */
+
+.nome {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.nome > div {
+    display: flex;
+    align-items: end;
+    gap: 3px;
+}
+
+.nome img {
+    width: 20px;
+
+}
+
+.nome p {
+    color: white;
+    font-family: var(--font);
+
+}
+
+.nome button {
+    width: 20px;
+    height: auto;
+}
+
+
+
+/* <-!-- LAYOUT TELA --!-> */
+
+#tela {
+    min-height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: blue;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px 0;
+    font-family: var(--font);
+    font-weight: lighter;
+    font-size: medium;
+    box-shadow: 2px 2px 0 rgb(255,255,255), 2px 2px 0 rgba(0, 0, 0, 0.438) inset;
+}
+
+
+
+/* <-!-- LAYOUT DAS TECLAS --!-> */
+
+.teclas {
+    display: grid;
+    grid-template-columns: 150px 100px;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.toperadores , .tnumeros, .especiais {
+    display: grid;
+
+}
+
+.tnumeros {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.toperadores {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.especiais {
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.especiais > button > img {
+    width: 30px;
+}
+
+.tecla {
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: medium;
+    justify-self: stretch;
+    height: 50px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.438), 2px 2px 0 rgb(255, 255, 255) inset;
+    cursor: pointer;
+    background-color: #d6d6d6;
+}
+
+.tecla:active {
+    transform: scale(0.9);
+    box-shadow: 2px 2px 0 rgb(255,255,255), 2px 2px 0 rgba(0, 0, 0, 0.438) inset;
+    background-color: #c7c5c5;
+}
+
+#t0 {
+    grid-column: span 3;
+}
