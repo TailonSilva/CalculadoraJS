@@ -5,6 +5,11 @@ const teclaApagar = document.querySelector("[data-select='apagar']")
 const teclaCopiar = document.querySelector("[data-select='copiar']")
 const teclaSeparador = document.querySelector("[data-select='separador']")
 const tela = document.querySelector('#tela')
+const teclaModulo = document.querySelector("[data-select='modulo']")
+const teclaRaiz = document.querySelector("[data-select='raiz']")
+
+console.log(teclaRaiz)
+console.log(teclaPorcentagem)
 
 let operador = false
 let separador = false
@@ -57,3 +62,11 @@ teclaResultado.addEventListener('click' , (evento) => {
 teclaCopiar.addEventListener('click' , (evento) => {
     navigator.clipboard.writeText(tela.innerHTML)
 })
+
+teclaRaiz.addEventListener('click', (evento) => {
+    let n = tela.innerHTML
+    let raiz = Math.sqrt(n)
+    tela.innerHTML = raiz
+})
+
+
