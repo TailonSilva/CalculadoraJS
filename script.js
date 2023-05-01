@@ -8,9 +8,6 @@ const tela = document.querySelector('#tela')
 const teclaModulo = document.querySelector("[data-select='modulo']")
 const teclaRaiz = document.querySelector("[data-select='raiz']")
 
-console.log(teclaRaiz)
-console.log(teclaPorcentagem)
-
 let operador = false
 let separador = false
 
