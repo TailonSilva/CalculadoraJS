@@ -1,7 +1,5 @@
 # 📟 CalculadoraJS
 
-![CalculadoraJS]
-
 Uma calculadora simples desenvolvida com **HTML, CSS e JavaScript** para operações matemáticas básicas. Ideal para estudos e prática de conceitos fundamentais do desenvolvimento web. 🚀
 
 ## ✨ Funcionalidades
@@ -17,9 +15,9 @@ Uma calculadora simples desenvolvida com **HTML, CSS e JavaScript** para operaç
 - **CSS3** → Estilização e layout 🎨
 - **JavaScript** → Lógica e funcionamento ⚡
 
-## 📸 Captura de Tela
+## 📸 Conheça o Projeto
 
-![Calculadora em funcionamento]
+![Calculadora em funcionamento](https://tailonsilva.github.io/CalculadoraJS/)
 
 ## 🚀 Como Executar o Projeto
 
