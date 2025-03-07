@@ -17,7 +17,7 @@ Uma calculadora simples desenvolvida com **HTML, CSS e JavaScript** para operaç
 
 ## 📸 Conheça o Projeto
 
-![Calculadora em funcionamento](https://tailonsilva.github.io/CalculadoraJS/)
+https://tailonsilva.github.io/CalculadoraJS
 
 ## 🚀 Como Executar o Projeto
 
