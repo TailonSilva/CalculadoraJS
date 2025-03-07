@@ -1,6 +1,6 @@
 # 📟 CalculadoraJS
 
-![CalculadoraJS](https://via.placeholder.com/800x400?text=CalculadoraJS+Preview)
+![CalculadoraJS]
 
 Uma calculadora simples desenvolvida com **HTML, CSS e JavaScript** para operações matemáticas básicas. Ideal para estudos e prática de conceitos fundamentais do desenvolvimento web. 🚀
 
@@ -19,7 +19,7 @@ Uma calculadora simples desenvolvida com **HTML, CSS e JavaScript** para operaç
 
 ## 📸 Captura de Tela
 
-![Calculadora em funcionamento](https://via.placeholder.com/600x300?text=Demo+CalculadoraJS)
+![Calculadora em funcionamento]
 
 ## 🚀 Como Executar o Projeto
 
